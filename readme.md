@@ -1,4 +1,4 @@
-# wix-test-example
+# sting to SMS
 
 this is a function that returns the needed amount of messages [with max length of K] to send the text [S]
 
