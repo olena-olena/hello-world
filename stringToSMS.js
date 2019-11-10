@@ -1,10 +1,7 @@
-let S = 'sms messages are really short';
-let K = 8;
-
 function solution (S,K) {
 	
 	let N = 0;
-	console.log(S)
+	
 	// test if splitting by K is doable for every word
 	let testS = S.split(' ');
 	for ( let j = 0; j < testS.length; j++) {
@@ -13,12 +10,11 @@ function solution (S,K) {
 		}
 	}
 
-    // counting sms
+        // counting sms
 	while (S.length > K) {
 		for ( let i = K; i >= 0; i--) {
 			if (S[i] === ' ') {
 				S = S.slice(i+1);
-				console.log(S)
 				N++;
 				break;
 			}
@@ -32,5 +28,10 @@ function solution (S,K) {
 		
 	return N;
 }
+
+
+// test
+let S = 'sms messages are really short';
+let K = 12;
 
 console.log(solution (S, K));
