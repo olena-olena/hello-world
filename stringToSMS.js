@@ -118,7 +118,14 @@ K = 9;
 console.log(solution (S, K)); // output: error: invalid input; undefined
 
 // S has more than 500 characters
-S = 'caecilii caeco caelo calere campum canes captet capti captiosa careat carere careret caret caritatem carum causa causae causam causas cedentem celeritas censes censet centurionum cepisse ceramico cernantur cernimus certa certae certamen certe certissimam ceteris cetero ceterorum ceteros choro chorusque chremes chrysippe chrysippi chrysippo cibo cillum circumcisaque cives civibus civitas civitatis civium clamat clariora claris clarorum class claudicare clita coercendi coerceri cogitarent cogitemus'
+S = 'caecilii caeco caelo calere campum canes captet capti captiosa \
+careat carere careret caret caritatem carum causa causae causam causas \
+cedentem celeritas censes censet centurionum cepisse ceramico cernantur \
+cernimus certa certae certamen certe certissimam ceteris cetero \
+ceterorum ceteros choro chorusque chremes chrysippe chrysippi chrysippo \
+cibo cillum circumcisaque cives civibus civitas civitatis civium clamat \
+clariora claris clarorum class claudicare clita coercendi coerceri \
+cogitarent cogitemus';
 K = 99;
 console.log(solution (S, K)); // output: error: invalid input; undefined
 
